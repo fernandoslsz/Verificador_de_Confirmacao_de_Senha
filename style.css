@@ -24,7 +24,12 @@ html, body{
 
 .container header{
     padding-top: 5px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 33px;
+}
+
+.container form{
+    margin: 10px 20px;
+
 }
