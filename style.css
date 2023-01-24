@@ -47,6 +47,7 @@ html, body{
     height: 45px;
     display: flex;
     margin: 15px 0 ;
+    position: relative;
 }
 
 form .field input{
@@ -57,4 +58,15 @@ form .field input{
     outline: none;
     border-radius: 5px;
     font-size: 15px;
+}
+
+form .field .show{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    font-weight: 600;
+    user-select: none;
+    cursor: pointer;
 }
