@@ -13,16 +13,21 @@
         <form action="#">
             <div class="error-text">Confirmação de senha não é igual</div>
             <div class="field">
-                <input type="password" placeholder="Entre com a senha">
+                <input id="pswrd_1 type="password" placeholder="Entre com a senha">
             </div>
             <div class="field">
-                <input type="password" placeholder="Confirme a senha">
+                <input id="pswrd_2" type="password" placeholder="Confirme a senha">
                 <div class="show">Mostrar</div>
             </div>
-            <button>checar</button>
+            <button disabled>checar</button>
         </form>
     </div>
 
-    
+<script>
+    const pswrd_1 = document.querySelector("#pswrd_1");
+    const pswrd_2 = document.querySelector("#pswrd_2");
+    const errorText = document.querySelector(".error-text");
+    const btn = document.querySelector("button");
+</script>    
 </body>
 </html>
