@@ -58,6 +58,12 @@ form .field input{
     outline: none;
     border-radius: 5px;
     font-size: 15px;
+    transition: all 0.3s;
+}
+
+form .field input:focus {
+    border-color: #27ae60;
+    box-shadow: inser 0 0 3px #2fd072;
 }
 
 form .field .show{
